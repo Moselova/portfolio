@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> -->
+		<link rel="stylesheet" href="font-awesome-4.7.0/cssfont-awesome.css" />
+		<link
+			rel="stylesheet"
+			href="font-awesome-4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+	<body>
+		<div class="page">
+			<div class="container">
+				<div class="navbar">
+					<div class="header-center">
+						<div class="logo">
+							<h1>Moselova</h1>
+						</div>
+					</div>
+					<nav>
+						<ul>
+							<li><a onclick="toHome()">Home</a></li>
+							<li onclick="toAbout()">About</li>
+							<li onclick="toService()">Services</li>
+							<li onclick="toPortfolio()">Portfolio</li>
+							<li onclick="toResume()">Resume</li>
+							<li>Blog</li>
+							<li>Contact</li>
+						</ul>
+					</nav>
+					<div onclick="openNav()">
+						<img class="menu-icon" src="img/menu icon.png" />
+					</div>
+				</div>
+				<div id="Home-el" class="row">
+					<div class="col-2">
+						<h1>Hello,<br />I'm Moses Faye Olamide</h1>
+
+						<p>Developer</p>
+						<div class="social-icon">
+							<a
+								class="social-icons"
+								href="https://instagram.com/"
+								><i class="fa fa-instagram fa-2x soc-icon"></i
+							></a>
+							<a class="social-icons" href="https://twitter.com/"
+								><i class="fa fa-twitter fa-2x soc-icon"></i
+							></a>
+							<a class="social-icons" href="https://wa.me/"
+								><i class="fa fa-whatsapp fa-2x soc-icon"></i
+							></a>
+							<a class="social-icons" href="https://wa.me/"
+								><i class="fa fa-facebook-f fa-2x soc-icon"></i
+							></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="about-el" class="row2">
+				<img
+					class="image"
+					src="img/about-pic.jpeg"
+					width="460"
+					height="532.69"
+				/>
+				<div class="about-type">
+					<h1>About Me</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing
+						elit, sed do eiusmod tempor incidiei dunt ut<br />labore
+						et dolore magna aliqua. Ut enim ad minim veniam, quis
+						nostrud exeracita aation ullamco<br />laboris nisi ut
+						aliquip ex ea commodo consequat. Duis aute irure dolor
+						in reprehenderit in voluptate<br />
+						velit esse cillum dolore eu fugiat nulla pariatur.
+					</p>
+					<div class="about-btn">
+						<button class="primary-btn">Hire Me</button>
+						<button class="btn">Download CV</button>
+					</div>
+				</div>
+			</div>
+			<div class="row3">
+				<h1>My Skills</h1>
+				<div class="statusbar-wrapper"></div>
+			</div>
+			<div id="service-El" class="row-4">
+				<h1>My Services</h1>
+				<div class="row4">
+					<div class="service">
+						<p>web design</p>
+					</div>
+					<div class="service">
+						<p>product design</p>
+					</div>
+					<div class="service">
+						<p>product design</p>
+					</div>
+					<div class="service">
+						<p>product design</p>
+					</div>
+				</div>
+			</div>
+			<div class="row-5">
+				<div class="content">
+					<h1>Latest projects</h1>
+					<div id="Portfolio-El" class="portfolio-list">
+						<ul>
+							<li>All work</li>
+							<li>All work</li>
+							<li>All work</li>
+							<li>All work</li>
+						</ul>
+					</div>
+					<div class="pic-side">
+						<div class="pic-1">
+							<img
+								src="img/pexels-aleksey-kuprikov-3624513.jpg"
+								width="359.99"
+								height="566.25"
+							/>
+						</div>
+						<div class="pic-2">
+							<img
+								src="img/background2.jpg"
+								width="359.99"
+								height="268.53"
+							/>
+						</div>
+						<div class="pic-3">
+							<img
+								src="img/pexels-a-koolshooter-5600117.jpg"
+								width="359.99"
+								height="268.53"
+							/>
+						</div>
+						<div class="pic-4">
+							<img
+								src="img/pexels-sebastiaan-stam-1097456.jpg"
+								width="359.99"
+								height="566.25"
+							/>
+						</div>
+						<div class="pic-5">
+							<img
+								src="img/pexels-michael-noel-4954678.jpg"
+								width="359.99"
+								height="268.53"
+							/>
+						</div>
+						<div class="pic-6">
+							<img
+								src="img/pexels-ivan-siarbolin-3695795.jpg"
+								width="749.99"
+								height="566.88"
+							/>
+						</div>
+						<div class="pic-7">
+							<img
+								src="img/pexels-a-koolshooter-5600178.jpg"
+								width="359.99"
+								height="268.53"
+							/>
+						</div>
+					</div>
+				</div>
+				<div id="resume-el" class="resume-div">
+					<h1>Resume</h1>
+					<div class="content-wrapper">
+						<div class="education-div">
+							<h2><i class="fa-trophy"></i>Education :</h2>
+							<div class="recta">
+								<div class="texts">
+									<p>march 27 1999 - present</p>
+									<h4>Diploma in Information Technology</h4>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit, sed do iusmodm
+										incididunt ut labore et dolore magna
+										aliqua.<br />Nortsouth University
+									</p>
+								</div>
+							</div>
+							<div class="recta">
+								<div class="texts">
+									<p>march 27 1999 - present</p>
+									<h4>Diploma in Information Technology</h4>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit, sed do iusmodm
+										incididunt ut labore et dolore magna
+										aliqua.<br />Nortsouth University
+									</p>
+								</div>
+							</div>
+							<div class="recta">
+								<div class="texts">
+									<p>march 27 1999 - present</p>
+									<h4>Diploma in Information Technology</h4>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit, sed do iusmodm
+										incididunt ut labore et dolore magna
+										aliqua.<br />Nortsouth University
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="experience-div">
+							<h2 class="fa-solid fa-briefcase">
+								<i></i>Experience :
+							</h2>
+							<div class="recta">
+								<div class="texts">
+									<p>march 27 1999 - present</p>
+									<h4>Diploma in Information Technology</h4>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit, sed do iusmodm
+										incididunt ut labore et dolore magna
+										aliqua.<br />Nortsouth University
+									</p>
+								</div>
+							</div>
+							<div class="recta">
+								<div class="texts">
+									<p>march 27 1999 - present</p>
+									<h4>Diploma in Information Technology</h4>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit, sed do iusmodm
+										incididunt ut labore et dolore magna
+										aliqua.<br />Nortsouth University
+									</p>
+								</div>
+							</div>
+							<div class="recta">
+								<div class="texts">
+									<p>march 27 1999 - present</p>
+									<h4>Diploma in Information Technology</h4>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit, sed do iusmodm
+										incididunt ut labore et dolore magna
+										aliqua.<br />Nortsouth University
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="testimony-div">
+						<h1>Testimonials</h1>
+						<div class="rec-wrapper">
+							<div class="rec"></div>
+							<div class="rec"></div>
+						</div>
+						<div class="button-div">
+							<button class="btn-1"></button>
+							<button class="btn-2"></button>
+							<button class="btn-3"></button>
+						</div>
+					</div>
+					<div class="trophy-div">
+						<div class="items-">
+							<div class="trophy">
+								<h3>cup of tea</h3>
+								<h2>5</h2>
+							</div>
+							<div class="trophy">
+								<h3>happy clients</h3>
+								<h2>3</h2>
+							</div>
+							<div class="trophy">
+								<h3>projects completed</h3>
+								<h2>3</h2>
+							</div>
+							<div class="trophy">
+								<h3>awards won</h3>
+								<h2>0</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clients-div">
+					<h1>clients</h1>
+					<div class="little-wrap">
+						<div class="little-square"></div>
+						<div class="little-square"></div>
+						<div class="little-square"></div>
+						<div class="little-square"></div>
+						<div class="little-square"></div>
+						<div class="little-square"></div>
+					</div>
+				</div>
+				<div class="blog-posts"></div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
