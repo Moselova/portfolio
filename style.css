@@ -435,6 +435,10 @@
   border: #555;
   box-shadow: #555;
 }
+/*-------------------blog post--------------------------------*/
+.blog-post {
+  text-align: center;
+}
 /*--------------------------side nav------------------------*/
 
 /*-------------------media query for mobile------------------------*/
@@ -444,6 +448,10 @@
   .content {
     display: none;
     width: 100%;
+  }
+  .logo h1 {
+    margin: 0;
+    padding: 0;
   }
 
   .row3 {
@@ -460,6 +468,7 @@
   .row2 {
     width: 100%;
     flex-direction: column;
+    padding: 20px;
   }
 
   .row2 button {
@@ -480,6 +489,11 @@
     padding: 0;
     margin-left: 0;
   }
+
+  .pic-side {
+    margin-left: 0;
+    margin: 0 7px;
+  }
   .pic-1,
   .pic-2,
   .pic-3,
@@ -487,14 +501,25 @@
   .pic-5,
   .pic-6,
   .pic-7 {
-    position: unset;
-    top: 0;
     left: 0;
+    top: 0;
     bottom: 0;
     right: 0;
+    position: static;
+  }
+  .pic-1 img,
+  .pic-2 img,
+  .pic-3 img,
+  .pic-4 img,
+  .pic-5 img,
+  .pic-6 img,
+  .pic-7 img {
+    width: 100%;
+    height: fit-content;
   }
   .navbar {
     justify-content: space-between;
+    padding: 1x0px;
   }
   nav {
     display: none;
@@ -521,8 +546,9 @@
 
   .education-div,
   .experience-div {
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 0;
+    padding-top: 30px;
   }
 
   .rec {
@@ -564,7 +590,17 @@
     justify-content: center;
   }
 
+  .col-2 h1 p {
+    padding-left: 0;
+    text-align: center;
+  }
+
   .col-2 h1 {
     padding-left: 0;
+    margin: 10px;
+  }
+  .col-2 p {
+    padding-left: 0;
+   text-align: center;
   }
 }
