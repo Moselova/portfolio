@@ -33,8 +33,8 @@
 							<li onclick="toService()">Services</li>
 							<li onclick="toPortfolio()">Portfolio</li>
 							<li onclick="toResume()">Resume</li>
-							<li>Blog</li>
-							<li>Contact</li>
+							<li onclick="toBlog()">Blog</li>
+							<li onclick="toContact()">Contact</li>
 						</ul>
 					</nav>
 					<div onclick="openNav()">
@@ -111,57 +111,6 @@
 					</div>
 				</div>
 			</div>
-			<div class="pic-side">
-				<div class="pic-1">
-					<img
-						src="img/pexels-aleksey-kuprikov-3624513.jpg"
-						width="359.99"
-						height="566.25"
-					/>
-				</div>
-				<div class="pic-2">
-					<img
-						src="img/background2.jpg"
-						width="359.99"
-						height="268.53"
-					/>
-				</div>
-				<div class="pic-3">
-					<img
-						src="img/pexels-a-koolshooter-5600117.jpg"
-						width="359.99"
-						height="268.53"
-					/>
-				</div>
-				<div class="pic-4">
-					<img
-						src="img/pexels-sebastiaan-stam-1097456.jpg"
-						width="359.99"
-						height="566.25"
-					/>
-				</div>
-				<div class="pic-5">
-					<img
-						src="img/pexels-michael-noel-4954678.jpg"
-						width="359.99"
-						height="268.53"
-					/>
-				</div>
-				<div class="pic-6">
-					<img
-						src="img/pexels-ivan-siarbolin-3695795.jpg"
-						width="749.99"
-						height="566.88"
-					/>
-				</div>
-				<div class="pic-7">
-					<img
-						src="img/pexels-a-koolshooter-5600178.jpg"
-						width="359.99"
-						height="268.53"
-					/>
-				</div>
-			</div>
 			<div class="row-5">
 				<div class="content">
 					<h1>Latest projects</h1>
@@ -174,6 +123,56 @@
 						</ul>
 					</div>
 				</div>
+			</div>	
+			<div class="pic-side">
+				<div class="picside-1">
+				<div class="pic-">
+					<img
+						src="img/pexels-a-koolshooter-5600117.jpg"
+						width="359.99"
+						height="268.53"
+					/>
+				</div>
+				<div class="pic-">
+					<img
+						src="img/background2.jpg"
+						width="359.99"
+						height="268.53"
+					/>
+				</div>
+				<div class="pic-">
+					<img
+						src="img/pexels-aleksey-kuprikov-3624513.jpg"
+						width="359.99"
+						height="268.53"
+					/>
+				</div>
+				</div>
+				<div class="picside-2">
+				<div class="pic-">
+					<img
+						src="img/pexels-sebastiaan-stam-1097456.jpg"
+						width="359.99"
+						height="268.53"
+					/>
+				</div>
+				<div class="pic-">
+					<img
+						src="img/pexels-michael-noel-4954678.jpg"
+						width="359.99"
+						height="268.53"
+					/>
+				</div>
+				<div class="pic-">
+					<img
+						src="img/pexels-ivan-siarbolin-3695795.jpg"
+						width="359.99"
+						height="268.53"
+					/>
+				</div>
+				</div>
+			</div>
+		</div>
 				<div id="resume-el" class="resume-div">
 					<h1>Resume</h1>
 					<div class="content-wrapper">
@@ -217,8 +216,7 @@
 							</div>
 						</div>
 						<div class="experience-div">
-							<h2 class="fa-solid fa-briefcase">
-								<i></i>Experience :
+							<h2 class="fa-solid fa-briefcase"><i></i>Experience :
 							</h2>
 							<div class="recta">
 								<div class="texts">
@@ -294,19 +292,80 @@
 				<div class="clients-div">
 					<h1>clients</h1>
 					<div class="little-wrap">
-						<div class="little-square"></div>
-						<div class="little-square"></div>
-						<div class="little-square"></div>
+						<div class="little-square">
+							<img src="img/biggi.png" width="190px" height="160px">
+						</div>
+						<div class="little-square">
+							<img src="img/logo1.jpg" width="190px" height="160px">
+						</div>
+						<div class="little-square">
+							<img src="img/WhatsApp Image 2022-08-02 at 5.37.29 AM.jpeg" width="190px" height="160px">
+						</div>
 						<div class="little-square"></div>
 						<div class="little-square"></div>
 						<div class="little-square"></div>
 					</div>
 				</div>
-				<div class="blog-posts">
+				<div id="blog-el" class="blog-posts">
 					<h1>Blog post</h1>
 				</div>
+				<div class="rec-flex">
+				<div class="st-rec">
+
+				</div>
+				<div class="nd-rec">
+					<div class="st">
+
+					</div>
+					<div class="nd">
+
+					</div>
+				</div>
+				</div>
+				<div id="contact-el" class="work-with">
+					<h1>Want To Start Work With Me ?</h1>
+					<P>Tell me about your project story and project brief</P>
+					<button class="work-btn">Start project</button>
+					<div class="bigrect">
+						<div class="write-wrap">
+						<div class="write">
+							<h2>font-awesome</h2>
+							<h4>08166401913</h4>
+							<h4>08166401913</h4>
+						</div>
+						<div class="write">
+							<i class="ti-map-alt"></i>
+							<h4>On a spaceship </h4>
+							<h4>banana island lagos </h4>
+						</div>
+						<div class="write">
+							<h2>font-awesome</h2>
+							<h4>moselovabadboy@gmail.com</h4>
+							<h4>mail here too </h4>
+						</div>
+						</div>
+						<div class="two-box">
+							<div class="box1">
+								<input name="name" placeholder="Your Name" type="text">
+								<input name="name" placeholder="Your email" type="text">
+								<input name="name" placeholder="Your budget" type="text">
+							</div>
+							<div class="box2">
+								<textarea name="message" cols="30" rows="2" placeholder="Project Description" spellcheck="false" data-gramm="false"></textarea>
+							</div>
+						</div>
+						<button class="submit">submit</button>
+					</div>
+				</div>
+				<div class="footer">
+							<a class="social-icons"href="https://instagram.com/"><i class="fa fa-instagram fa-2x soc-icon"></i></a>
+							<a class="social-icons" href="https://twitter.com/"><i class="fa fa-twitter fa-2x soc-icon"></i></a>
+							<a class="social-icons" href="https://wa.me/"><i class="fa fa-whatsapp fa-2x soc-icon"></i></a>
+							<a class="social-icons" href="https://wa.me/"><i class="fa fa-facebook-f fa-2x soc-icon"></i></a>
+							<p>copyright @2020-Moselova</p>
+				</div>
 			</div>
-		</div>
+		
 
 		<script src="script.js"></script>
 	</body>

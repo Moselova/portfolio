@@ -29,3 +29,14 @@ function toResume() {
   console.log(resume)
   resume.scrollIntoView({ behavior: "smooth"})
 }
+function toBlog() {
+  var blog = document.getElementById('blog-el');
+  console.log(blog);
+  blog.scrollIntoView({ behavior: "smooth"})
+  
+}
+function toContact() {
+ var contact = document.getElementById('contact-el')
+  console.log(contact);
+  contact.scrollIntoView({behavior: "smooth"})
+}
