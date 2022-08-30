@@ -759,7 +759,6 @@ textarea {
 		flex-direction: column;
 		margin-right: 200px;
 		margin: 0;
-		padding-right: 200px;
 	}
 	.bigrect {
 		flex-direction: column;
@@ -769,7 +768,12 @@ textarea {
 	}
 	.two-box {
 		flex-direction: column;
-		margin-right: 80px;
+		margin-right: 20px;
+    	margin-left: 0;
+	}
+
+	.write {
+		margin-left: 0;
 	}
 	textarea,
 	input {
