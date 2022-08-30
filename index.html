@@ -28,7 +28,7 @@
 					</div>
 					<nav>
 						<ul>
-							<li><a onclick="toHome()">Home</a></li>
+							<li onclick="toHome()">Home</li>
 							<li onclick="toAbout()">About</li>
 							<li onclick="toService()">Services</li>
 							<li onclick="toPortfolio()">Portfolio</li>
@@ -37,8 +37,8 @@
 							<li onclick="toContact()">Contact</li>
 						</ul>
 					</nav>
-					<div onclick="openNav()">
-						<img class="menu-icon" src="img/menu icon.png" />
+					<div>
+						<img onclick="menutoogle()" class="menu-icon" src="img/menu icon.png">
 					</div>
 				</div>
 				<div id="Home-el" class="row">
@@ -128,47 +128,43 @@
 				<div class="picside-1">
 				<div class="pic-">
 					<img
-						src="img/pexels-a-koolshooter-5600117.jpg"
+						src="img/logo1.jpg"
 						width="359.99"
-						height="268.53"
-					/>
+						height="268.53">
+				</div>
+					 
+				<div class="pic-">
+					<img
+						src="img/feature.png"
+						width="359.99"
+						height="268.53">
 				</div>
 				<div class="pic-">
 					<img
-						src="img/background2.jpg"
+						src="img/WhatsApp Image 2022-08-02 at 5.37.29 AM.jpeg"
 						width="359.99"
-						height="268.53"
-					/>
-				</div>
-				<div class="pic-">
-					<img
-						src="img/pexels-aleksey-kuprikov-3624513.jpg"
-						width="359.99"
-						height="268.53"
-					/>
+						height="268.53">
 				</div>
 				</div>
 				<div class="picside-2">
 				<div class="pic-">
 					<img
-						src="img/pexels-sebastiaan-stam-1097456.jpg"
+						src="img/biggi.png"
 						width="359.99"
 						height="268.53"
 					/>
 				</div>
 				<div class="pic-">
 					<img
-						src="img/pexels-michael-noel-4954678.jpg"
+						src="img/logo.png"
 						width="359.99"
-						height="268.53"
-					/>
+						height="268.53">
 				</div>
 				<div class="pic-">
 					<img
 						src="img/pexels-ivan-siarbolin-3695795.jpg"
 						width="359.99"
-						height="268.53"
-					/>
+						height="268.53">
 				</div>
 				</div>
 			</div>
@@ -364,7 +360,30 @@
 							<a class="social-icons" href="https://wa.me/"><i class="fa fa-facebook-f fa-2x soc-icon"></i></a>
 							<p>copyright @2020-Moselova</p>
 				</div>
+				<div id="mySidenav" class="sidenav">
+					 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<ul>
+					
+							
+ 							<li><a onclick="toHome()">Home</a></li>
+  							<li><a onclick="toAbout()">About</a> </li>
+ 						  	<li><a onclick="toService()">Services</a></li>
+  							<li><a onclick="toPortfolio()">Portfolio</a></li>
+							<li><a onclick="toResume()">Resume</a></li>
+							<li><a onclick="toBlog()">Blog</a></li>
+							<li><a onclick="toContact()">Contact</a></li>
+							<p class="first">follow me on social media :</p>
+						<div class="side-icon">
+							<a class="side-icons"href="https://instagram.com/"><i class="fa fa-instagram fa-2x soc-icon"></i></a>
+							<a class="side-icons" href="https://twitter.com/"><i class="fa fa-twitter fa-2x soc-icon"></i></a>
+							<a class="side-icons" href="https://wa.me/"><i class="fa fa-whatsapp fa-2x soc-icon"></i></a>
+							<a class="side-icons" href="https://wa.me/"><i class="fa fa-facebook-f fa-2x soc-icon"></i></a>
+						</div>
+						<p>copyright-Moselova</p>
+					</ul>
+				</div>
 			</div>
+				
 		
 
 		<script src="script.js"></script>

@@ -502,6 +502,7 @@ a {
 .bigrect {
 margin-top: 50px;
 margin-left: 30px;
+margin-right: 30px;
 background: whitesmoke;
 }
 .write-wrap {
@@ -560,10 +561,49 @@ background: whitesmoke;
 	padding: 50px;
 }
 .footer p{
-	padding: 20px;
+	padding: 30px;
 	padding-top: 30px;
 }
 /*--------------------------side nav------------------------*/
+.sidenav {
+  height: 100%; 
+  width: 20%; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: white;
+  padding-top: 20px; 
+  transition: 0.5s;
+  z-index: 150;
+  text-align: center;
+  list-style: none;
+  display: none;
+
+}
+.sidenav li {
+	padding: 13px;
+	border-bottom: 1px solid black;
+	cursor: pointer;
+	
+}
+.sidenav li a{
+	color: #000000;
+}
+.sidenav li a:hover{
+	color: red;
+	padding: 10px;
+}
+.side-icon {
+	display: flex;
+}
+.side-icons {
+	padding: 15px;
+	padding-top: 50px;
+}
+.first {
+	padding-top: 20px;
+}
 
 /*-------------------media query for mobile------------------------*/
 
@@ -759,5 +799,8 @@ background: whitesmoke;
 	}
 	.submit {
 		margin: 0;
+	}
+	.sidenav{
+		width: 60%;
 	}
 }

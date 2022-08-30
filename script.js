@@ -40,3 +40,11 @@ function toContact() {
   console.log(contact);
   contact.scrollIntoView({behavior: "smooth"})
 }
+
+
+function closeNav() {
+	document.getElementById("mySidenav").style.display = "none";
+}
+function menutoogle() {
+  document.getElementById("mySidenav").style.display = "flex"
+}
