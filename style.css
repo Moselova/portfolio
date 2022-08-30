@@ -201,7 +201,6 @@ a {
 
 /*----------skills section------------*/
 
-
 .row3 h1 {
 	text-align: center;
 	padding: 50px;
@@ -279,8 +278,6 @@ a {
 .content h1 {
 	text-align: center;
 }
-
-
 
 /*------------resume----------------*/
 .resume-div h1 {
@@ -444,7 +441,6 @@ a {
 /*-------------------blog post--------------------------------*/
 .blog-posts {
 	text-align: center;
-	
 }
 .blog-posts h1 {
 	margin-top: 60px;
@@ -471,7 +467,6 @@ a {
 	display: flex;
 	padding: 30px;
 }
-
 
 /*-----------work with me ---------------------*/
 
@@ -500,10 +495,10 @@ a {
 	color: #000000;
 }
 .bigrect {
-margin-top: 50px;
-margin-left: 30px;
-margin-right: 30px;
-background: whitesmoke;
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-right: 30px;
+	background: whitesmoke;
 }
 .write-wrap {
 	display: flex;
@@ -521,20 +516,19 @@ background: whitesmoke;
 .box1 {
 	display: grid;
 }
- input {
+input {
 	width: 399.17px;
 	height: 44px;
 	margin: 10px;
 	padding: 10px;
 }
- textarea {
+textarea {
 	width: 570.83px;
 	height: 192px;
 	margin: 10px;
 	padding: 10px;
 }
 .submit {
-		
 	background: #000000 none repeat scroll 0 0;
 	border: 2px solid #000000;
 	color: #fff;
@@ -548,7 +542,6 @@ background: whitesmoke;
 	padding: 0 40px;
 	margin-left: 830px;
 	margin-bottom: 40px;
-	
 }
 .submit:hover {
 	background: transparent none repeat scroll 0 0;
@@ -560,37 +553,35 @@ background: whitesmoke;
 	text-align: center;
 	padding: 50px;
 }
-.footer p{
+.footer p {
 	padding: 30px;
 	padding-top: 30px;
 }
 /*--------------------------side nav------------------------*/
 .sidenav {
-  height: 100%; 
-  width: 20%; 
-  position: fixed; 
-  z-index: 1; 
-  top: 0; 
-  left: 0;
-  background-color: white;
-  padding-top: 20px; 
-  transition: 0.5s;
-  z-index: 150;
-  text-align: center;
-  list-style: none;
-  display: none;
-
+	height: 100%;
+	width: 20%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: white;
+	padding-top: 20px;
+	transition: 0.5s;
+	z-index: 150;
+	text-align: center;
+	list-style: none;
+	display: none;
 }
 .sidenav li {
 	padding: 13px;
 	border-bottom: 1px solid black;
 	cursor: pointer;
-	
 }
-.sidenav li a{
+.sidenav li a {
 	color: #000000;
 }
-.sidenav li a:hover{
+.sidenav li a:hover {
 	color: red;
 	padding: 10px;
 }
@@ -609,7 +600,6 @@ background: whitesmoke;
 
 @media screen and (max-width: 480px) {
 	.content {
-	
 		width: 100%;
 	}
 
@@ -656,7 +646,6 @@ background: whitesmoke;
 	}
 
 	.pic-side {
-		
 	}
 	.picside-1 {
 		flex-direction: column;
@@ -777,17 +766,14 @@ background: whitesmoke;
 		padding: 0;
 		width: 86%;
 		margin-right: 50px;
-		
-		
 	}
-	.two-box  {
+	.two-box {
 		flex-direction: column;
 		margin-right: 80px;
 	}
 	textarea,
 	input {
 		width: 100%;
-	
 	}
 	.nd-rec {
 		flex-direction: column;
@@ -800,7 +786,7 @@ background: whitesmoke;
 	.submit {
 		margin: 0;
 	}
-	.sidenav{
+	.sidenav {
 		width: 60%;
 	}
 }
